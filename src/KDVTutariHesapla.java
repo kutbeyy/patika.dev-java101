@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class KDVTutarıHesapla {
+public class KDVTutariHesapla {
     public static void main(String[] args) {
 
    /*     KDV Tutarı Hesaplayan Program
