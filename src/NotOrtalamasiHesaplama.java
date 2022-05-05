@@ -12,34 +12,25 @@ public class NotOrtalamasiHesaplama {
 
         float math, fizik, kimya, turkce, tarih, muzik; // exam's varaibles
 
-        Scanner examMathInput = new Scanner(System.in);
+        Scanner examInput = new Scanner(System.in);
+
         System.out.print("Matemetik Sınav Notu:");
-        math = examMathInput.nextFloat();
+        math = examInput.nextFloat();
 
-
-        Scanner examFizikInput = new Scanner(System.in);
         System.out.print("Fizik Sınav Notu:");
-        fizik = examFizikInput.nextFloat();
+        fizik = examInput.nextFloat();
 
-
-        Scanner examKimyaInput = new Scanner(System.in);
         System.out.print("Kimya Sınav Notu:");
-        kimya = examKimyaInput.nextFloat();
+        kimya = examInput.nextFloat();
 
-
-        Scanner examTurkceInput = new Scanner(System.in);
         System.out.print("Türkçe Sınav Notu:");
-        turkce = examTurkceInput.nextFloat();
+        turkce = examInput.nextFloat();
 
-
-        Scanner examTarihInput = new Scanner(System.in);
         System.out.print("Tarih Sınav Notu:");
-        tarih = examTarihInput.nextFloat();
+        tarih = examInput.nextFloat();
 
-
-        Scanner examMuzikInput = new Scanner(System.in);
         System.out.print("Müzik Sınav Notu:");
-        muzik = examMuzikInput.nextFloat();
+        muzik = examInput.nextFloat();
 
 
         float sumOfExamGrades = math + fizik + kimya + turkce + tarih + muzik;
