@@ -10,7 +10,7 @@ public class DikUcgendeHipotenusBulma {
          * kenar1+kenar3 > kenar2
          *
          * Üsteki koşul ve eşitsizlikleri sağlayan rakamlar ile ancak gerçek bir üçgen oluşturulabir        * */
-        
+
 
       /* SORU 1
 
