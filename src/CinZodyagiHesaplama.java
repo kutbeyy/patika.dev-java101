@@ -27,7 +27,7 @@ public class CinZodyagiHesaplama {
             default -> System.out.println("Hatalı Veri Girildi!");
         }
 
-       
+
         System.out.println("Çin Zodyağı Burcunuz : " + ChineseZodiac);
 
     }
