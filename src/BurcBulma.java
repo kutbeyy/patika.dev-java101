@@ -18,7 +18,8 @@ public class BurcBulma {
         is30Months = (birthMonth == 4 || birthMonth == 6 || birthMonth == 9 || birthMonth == 10);
         range1_30 = birthDay >= 1 && birthDay <= 30;
 
-        is31Months = (birthMonth == 1 || birthMonth == 3 || birthMonth == 5 || birthMonth == 7 || birthMonth == 8 || birthMonth == 11 || birthMonth == 12);
+        is31Months = (birthMonth == 1 || birthMonth == 3 || birthMonth == 5 || birthMonth == 7 || birthMonth == 8 ||
+                birthMonth == 11 || birthMonth == 12);
         range1_31 = birthDay >= 1 && birthDay <= 31;
 
         is29Feb = birthMonth == 2;
