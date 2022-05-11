@@ -30,6 +30,7 @@ public class ArmstrongSayilariBul {
         }
 
 
+
         scan.close();
     }
 
