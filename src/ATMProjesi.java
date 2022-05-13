@@ -37,14 +37,14 @@ public class ATMProjesi {
                             if (takeMoney > balance) {
                                 System.out.println("\nInsufficient balance!\nYour account balance: " + balance);
                             } else {
-                                balance -= takeMoney;
+                                if (takeMoney > 0) balance -= takeMoney;
                                 System.out.println("New account balance: " + balance + "\n");
                             }
                         }
                         case 2 -> {
                             System.out.print("Amount of Deposit: ");
                             double depositedMoney = scan.nextDouble();
-                            balance += depositedMoney;
+                            if (depositedMoney > 0) balance += depositedMoney;
                             System.out.println("New account balance: " + balance + "\n");
                         }
                         case 3 -> System.out.println("Account balance: " + balance + "\n");
