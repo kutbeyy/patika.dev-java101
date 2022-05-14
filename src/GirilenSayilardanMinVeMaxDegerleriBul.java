@@ -5,9 +5,9 @@ public class GirilenSayilardanMinVeMaxDegerleriBul {
 
     public static void main(String[] args) {
 
-        double num1 = 0, num2 = 0, temp = 0, max = 0, min = 0;
+        double temp = 0, max = 0, min = 0;
         String input = "q";
-        int counter = 1, qNum = 1;
+        int counter = 1;
 
 
         while (true) {
