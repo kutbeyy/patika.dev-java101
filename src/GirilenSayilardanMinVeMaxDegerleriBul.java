@@ -11,39 +11,24 @@ public class GirilenSayilardanMinVeMaxDegerleriBul {
 
 
         while (true) {
-            System.out.print("1-Enter " + qNum + ".number (For Quit-q): ");
+            System.out.print("1-Enter " + counter + ".number (For Quit-q): ");
             input = scanner.nextLine();
             if (input.toLowerCase().equals("q")) {
                 break;
             } else {
-                if (counter == 1) {
-                    num1 = Double.parseDouble(input);
-                }
-                if (counter == 2) {
-                    num2 = Double.parseDouble(input);
-                }
-                if (counter == 3) {
-                    if (num1 >= num2) {
-                        max = num1;
-                        min = num2;
-                    }
-                    max = num2;
-                    min = num1;
-                    counter++;
-                }
                 temp = Double.parseDouble(input);
-                if (counter > 3) {
-                    if (temp >= max) {
-                        max = temp;
-                    } else {
-                        if (temp <= min) {
-                            min = temp;
-                        }
-                    }
+                if (counter == 1) {
+                    max = temp;
+                    min = temp;
+                }
+                if (temp > max) {
+                    max = temp;
+                }
+                if (temp < min) {
+                    min = temp;
                 }
             }
             counter++;
-            qNum++;
         }
 
         System.out.println("Max Num: " + max);
