@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class RecusiveDesing {
     private static final Scanner scan = new Scanner(System.in);
 
-    public static int pattern(int num, int value, int temp) {
+    public static void pattern(int num, int value, int temp) {
         System.out.print(num + " ");
         if (num <= 0) {
             value = -1 * value;
         }
         if (num == temp && value <= 0) {
-            return num;
+            return;
         }
-        return pattern(num - value, value, temp);
+        pattern(num - value, value, temp);
 
 
     }
